@@ -8,8 +8,8 @@
   comment
  */
 
-/// Documentation Comment
-/** Documentation Comment */
+/// Documentation Comment ///
+/** Documentation Comment **/
 
 import 'package:belajar_dart/belajar_dart.dart' as belajar_dart;
 
