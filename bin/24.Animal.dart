@@ -13,6 +13,10 @@ class Animal {
     _name = value;
   }
 
+  set age(int value) {
+    _age = value;
+  }
+
   // Getter
   double get weight => _weight;
 
