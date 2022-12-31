@@ -6,7 +6,16 @@ class Animal {
   int _age = 0;
   double _weight = 0;
 
+  // If the constructor is only used to initialize the value property, it can be abbreviated
+  // Way 1
   Animal(this._name, this._age, this._weight);
+
+  // Way 2
+  // Animal(String name, int age, double weight) {
+  //   this._name = name;
+  //   this._age = age;
+  //   this._weight = weight
+  // }
 
   // Setter
   set name(String value) {
@@ -18,6 +27,8 @@ class Animal {
   }
 
   // Getter
+  String get name => _name;
+
   double get weight => _weight;
 
   void eat() {

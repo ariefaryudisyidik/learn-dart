@@ -19,5 +19,5 @@ void cascadeSample() {
     ..name = 'jenny'
     ..email = 'jenny@example.com'
     ..phone = '415-555-0100')
-      .build()
+      .build();
 }
