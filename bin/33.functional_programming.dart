@@ -1,4 +1,7 @@
 // Functional Programming Paradigm
+/*
+  "What to solve?" not "How to solve?"
+ */
 
 // Pure Functions
 int sum(int num1, int num2) {
